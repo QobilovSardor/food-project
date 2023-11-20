@@ -55,7 +55,115 @@ ul {
   overflow: hidden;
 }
 
+.btn {
+  border-radius: 10px;
+  background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 14px 13px 14px 24px;
+  display: flex;
+  align-items: center;
+}
+.btn .product-value {
+  padding: 0 8px;
+  line-height: 24px;
+  color: #403C3B;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 24px;
+  margin-left: 12px;
+}
+.btn .btn-text {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding-right: 20px;
+}
+.btn:hover {
+  color: #fff;
+  background: linear-gradient(115deg, #72A479 5.11%, #618967 94%);
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+@media screen and (min-width: 1140px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 body {
   font-family: "Gilroy", sans-serif;
   font-weight: 400;
+  background: #3e3a3a;
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header .navbar {
+  padding: 23px 0;
+}
+.header .navbar__logo {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 3.75px;
+  margin-right: 72px;
+}
+.header .navbar__search-form {
+  width: 555px;
+  margin-right: 30px;
+}
+.header .navbar__search-form .adres-icon {
+  top: 50%;
+  left: 18px;
+  right: auto;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.header .navbar__search-form .search-icon {
+  top: 50%;
+  left: auto;
+  right: 18px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.header .navbar__search {
+  border-radius: 10px;
+  background: #504B4A;
+  border: none;
+  color: #CFCFCF;
+  padding: 17px 18px 17px 48px;
+}
+.header .navbar__contact-calling {
+  background-color: #618967;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  margin-right: 10px;
+}
+.header .navbar__contact-phone-number span {
+  color: #CFCFCF;
+  font-family: Gilroy;
+  font-size: 12px;
+  line-height: 20px;
+}
+.header .navbar__contact-phone-number a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  display: block;
 }/*# sourceMappingURL=main.css.map */

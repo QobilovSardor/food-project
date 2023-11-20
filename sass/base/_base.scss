@@ -54,3 +54,52 @@ ul {
 .wrapper {
 	overflow: hidden;
 }
+
+.btn {
+	border-radius: 10px;
+	background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 600;
+	border: none;
+	padding: 14px 13px 14px 24px;
+	display: flex;
+	align-items: center;
+
+	.product-value {
+		padding: 0 8px;
+		line-height: 24px;
+		color: #403C3B;
+		font-size: 12px;
+		font-weight: 600;
+		background-color: #fff;
+		border-radius: 50%;
+		height: 24px;
+		margin-left: 12px;
+	}
+	.btn-text {
+		border-right: 1px solid rgba(255, 255, 255, 0.30);
+		padding-right: 20px;
+	}
+	&:hover {
+		color: #fff;
+		background: linear-gradient(115deg, #72A479 5.11%, #618967 94%);
+	}
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+
+@media screen and (min-width: 1140px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		// max-width: 1023px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

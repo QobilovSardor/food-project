@@ -1,0 +1,7 @@
+@mixin search-icons($left: auto, $right: auto) {
+	top: 50%;
+	left: $left;
+	right: $right;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
